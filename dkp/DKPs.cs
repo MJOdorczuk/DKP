@@ -8,10 +8,7 @@ namespace dkp
 {
     class DKPs
     {
-        private const int MAXVALUE = 100;
-        private const int ROULETTE = 0;
-        private const int JOUST = 1;
-        private const int RANK = 2;
+        private const int MAXVALUE = 100; //maksymalna wartość przedmiotu
         private Func<Thieves, bool> fitness;
         private Func<Thieves, bool> selection;
         private Func<Thieves, bool> breeder;
